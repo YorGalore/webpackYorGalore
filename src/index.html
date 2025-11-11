@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="favicon.png">
+
+    <link rel="manifest" href="manifest.json"/>
+    <meta name="theme-color" content="2196F3"/>
+    
+    <title>YorGalore App</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="main-header container">
+        <a class="brand-name" href="#/">App</a>
+
+        <nav id="navigation-drawer" class="navigation-drawer">
+          <ul id="nav-list" class="nav-list">
+            <li><a href="#/">Beranda</a></li>
+            <li><a href="#/add">Tambah Cerita</a></li> 
+            <li><a href="#/about">About</a></li>
+            <li><a href="#/login">Login</a></li> </ul>
+            <li><a href="#/register">Register</a></li> 
+            <li><button id="logout-button" class="nav-logout">Logout</button></li> </ul>
+          </ul>
+
+          <div class="notification-toggle-container">
+              <label for="push-notification-toggle">Notifikasi Cerita</label>
+              <input type="checkbox" id="push-notification-toggle" role="switch" aria-label="Toggle Push Notifications">
+          </div>
+        </nav>
+
+        <button id="drawer-button" class="drawer-button">☰</button>
+      </div>
+    </header>
+
+    <main id="main-content" class="main-content"></main>
+    <footer>
+      <div class="container">
+        <p>&copy; 2025 YorGalore. All rights reserved.</p>
+      </div>
+    </footer>
+
+  </body>
+</html>

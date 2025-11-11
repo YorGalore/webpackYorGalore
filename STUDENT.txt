@@ -1,0 +1,2 @@
+APP_URL=https://yor-story.netlify.app/
+MAP_SERVICE_API_KEY=Tidak pakai
